@@ -2,7 +2,7 @@
 <section id="work">
 	<h2>Relevant Experience</h2>
 	{{#each resume.work}}
-		{{#if @index < 3}}
+		{{#lt @index 3}}
 			{{#> item title=name subtitle=position location=location startDate=startDate endDate=endDate startDate2=startDate2 endDate2=endDate2}}
 			{{#if highlights.length}}
 			<ul class="highlights">
@@ -12,7 +12,7 @@
 			</ul>
 			{{/if}}
 			{{/item}}
-		{{/if}}
+		{{/lt}}
 	{{/each}}
 </section>
 {{/if}}
