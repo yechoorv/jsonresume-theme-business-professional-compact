@@ -9,7 +9,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "resume serve --theme ."
+    "start": "resume serve --theme .",
+    "export": "resume export resume.pdf --theme ."
   },
   "dependencies": {
     "address-format": "0.0.3",
