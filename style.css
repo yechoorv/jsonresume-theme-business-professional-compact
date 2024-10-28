@@ -2,9 +2,11 @@
 body {
 	font: 12px Times, sans-serif;
 	margin: 0;
+	padding: 28px 48px;  /* Adds horizontal padding to the body */
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	box-sizing: border-box; /* Ensures padding does not add to the width */
 }
 
 #resume {
@@ -17,28 +19,27 @@ body {
 h1 {
 	font: 26px Georgia, serif;
 	text-align: center;
-	margin: 5px;
+	margin: 2.5px 0; /* Adjust top and bottom margins only */
 }
 
 h2 {
 	font-variant-caps: all-small-caps;
 	border-width: 1px;
 	border-style: none none solid none;
-	margin: 5px 0 2.5px 0;
+	margin: 5px 0 2.5px; /* Adjusted to provide consistent spacing */
 }
 
 section {
 	flex-grow: 1; /* Causes sections to expand and take available space */
-	margin: 8px 0; /* Adjusted to provide consistent spacing */
 }
 
 ul {
-	margin: 0;
+	margin-top: 4px;
 	padding-left: 40px;
 }
 
 .item {
-	margin-top: 8px;
+	margin-top: 16px;
 }
 
 .item>.item-header {
