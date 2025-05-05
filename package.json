@@ -5,7 +5,7 @@
   "author": "Vamsi Yechoor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yechoorv/jsonresume-theme-business-professional-compact"
+    "url": "git+https://github.com/yechoorv/jsonresume-theme-business-professional-compact.git"
   },
   "license": "MIT",
   "scripts": {
