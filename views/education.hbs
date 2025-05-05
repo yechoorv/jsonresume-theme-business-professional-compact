@@ -3,7 +3,7 @@
 	<h2>Education</h2>
 	{{#each resume.education}}
 	{{#> item title=institution subtitle=studyType location=city startDate=startDate endDate=endDate}}
-	{{#if score}}
+	{{!-- {{#if score}} --}}
 	{{!-- <ul>
 		<li>
 			<div class="score">
@@ -18,7 +18,7 @@
 		</li>
 		{{/if}} --}}
 	{{!-- </ul> --}}
-	{{/if}}
+	{{!-- {{/if}} --}}
 	{{#if courses.length}}
 	<ul class="courses">
 		{{#each courses}}
